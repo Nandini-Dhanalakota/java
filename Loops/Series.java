@@ -18,7 +18,7 @@ public class om
             System.out.print(sum);
             for(int j = 1; j<n; j++)
             {
-                sum += b*Math.pow(2,j); //sum = sum + b*Math.pow(2,j)
+                sum += b*Math.pow(2,j); //sum = sum + b*Math.pow(2,j) --> This format gives error
                 System.out.print(" " + sum);
 
             }
